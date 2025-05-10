@@ -1,73 +1,72 @@
-# TurIA · Turismo Inteligente para Comercios Locales
+# TurIA · Smart Tourism for Local Businesses
 
-**TurIA** es una aplicación web experimental que utiliza **GitHub Copilot** y **OpenAI** para crear una plataforma de turismo inteligente enfocada en comercios locales, ayuntamientos y asociaciones de Valencia.  
-Este proyecto se está desarrollando dentro del ejercicio de GitHub Skills: *Build Applications with GitHub Copilot Agent Mode*.
-
----
-
-## 🚀 ¿Qué estamos haciendo?
-
-Estamos combinando el poder de **GitHub Copilot Agent Mode** con la API de **OpenAI** para construir una aplicación full-stack que:
-
-- Analiza datos públicos de OpenDataValencia, Google Places, TripAdvisor, etc.
-- Identifica perfiles de turistas por idioma, nacionalidad e intereses.
-- Predice comportamientos de afluencia turística.
-- Genera recomendaciones para comercios y propuestas de acciones concretas usando IA generativa.
+**TurIA** is an experimental web application powered by **GitHub Copilot** and **OpenAI**, designed to build a smart tourism platform focused on local businesses, municipalities, and associations in Valencia, Spain.  
+This project is being developed as part of the GitHub Skills course: *Build Applications with GitHub Copilot Agent Mode*.
 
 ---
 
-## 👨‍💻 Stack tecnológico
+## 🚀 What are we building?
 
-- **Copilot Agent Mode**: generación asistida de código en GitHub Codespaces
-- **OpenAI GPT-4o**: para análisis semántico y generación de recomendaciones inteligentes
-- **Astro.js** o **Next.js** (por definir)
-- **Supabase**: autenticación + base de datos (en versión MVP)
-- **TailwindCSS**: UI rápida y responsive
-- **DatoCMS** (opcional): para gestión multibrand en un futuro
+We are combining the power of **GitHub Copilot Agent Mode** with the **OpenAI API** to build a full-stack application that:
 
----
-
-## 🤖 ¿Por qué GitHub Copilot?
-
-Este proyecto forma parte del entrenamiento de GitHub Skills para explorar el modo **"Copilot Agent Mode"**, una forma avanzada de interactuar con modelos generativos dentro del flujo de trabajo de desarrollo.  
-En lugar de generar código aislado, Copilot ayuda a construir **aplicaciones completas** a partir de descripciones en lenguaje natural.
+- Analyzes public data from OpenDataValencia, Google Places, TripAdvisor, and more.
+- Identifies tourist profiles by language, nationality, and interests.
+- Predicts tourist influx behavior across different areas.
+- Generates smart recommendations and actionable strategies using generative AI.
 
 ---
 
-## 📡 Integración con OpenAI
+## 👨‍💻 Tech Stack
 
-Utilizamos OpenAI GPT-4o para:
-
-- Analizar sentimientos en reseñas turísticas
-- Generar respuestas multilingües
-- Sugerir productos o promociones según perfil de visitante
-- Predecir áreas de oportunidad turística a nivel de barrio
-
----
-
-## 🧭 Estado actual del proyecto
-
-| Componente       | Estado        |
-|------------------|---------------|
-| Idea             | ✅ Definida   |
-| Estructura       | 🛠 En curso   |
-| UI               | 🛠 Bocetada   |
-| API con OpenAI   | 🧪 Prototipo  |
-| Panel de datos   | ⏳ Por iniciar |
+- **Copilot Agent Mode**: AI-assisted code generation in GitHub Codespaces
+- **OpenAI GPT-4o**: for semantic analysis and smart suggestion generation
+- **Astro.js** or **Next.js** (to be defined)
+- **Supabase**: authentication and database (MVP version)
+- **TailwindCSS**: fast and responsive UI styling
+- **DatoCMS** (optional): for future multibrand content management
 
 ---
 
-## ✨ ¿Qué sigue?
+## 🤖 Why GitHub Copilot?
 
-- Definir si el MVP será en Astro o Next.js
-- Crear estructura de base de datos (leads, perfiles, reseñas)
-- Implementar interfaz para cargar datos abiertos de Valencia
-- Testear generación de respuestas personalizadas con IA
+This project is part of a GitHub Skills training course to explore **Copilot Agent Mode**, an advanced way to interact with generative models within a modern development workflow.  
+Instead of just generating snippets, Copilot helps build **full applications** based on natural language prompts.
 
 ---
 
-## 📄 Licencia
+## 📡 OpenAI Integration
 
-MIT License. Este proyecto es experimental y está en desarrollo.  
+We are using OpenAI GPT-4o to:
+
+- Analyze tourist review sentiment
+- Generate multilingual responses and summaries
+- Suggest products or offers based on visitor profiles
+- Predict local tourism opportunities at the neighborhood level
+
+---
+
+## 🧭 Project Status
+
+| Component        | Status         |
+|------------------|----------------|
+| Idea             | ✅ Defined     |
+| Structure        | 🛠 In progress |
+| UI               | 🛠 In design   |
+| OpenAI API       | 🧪 Prototype   |
+| Data dashboard   | ⏳ Not started |
+
+---
+
+## ✨ What's next?
+
+- Decide whether the MVP will use Astro or Next.js
+- Create the database structure (leads, profiles, reviews)
+- Build an interface to load public tourism data from Valencia
+- Test personalized AI-based response generation
+
+---
+
+## 📄 License
+
+MIT License. This project is experimental and under active development.  
 Powered by GitHub Copilot & OpenAI · © 2025 Andrés Tobio
-
