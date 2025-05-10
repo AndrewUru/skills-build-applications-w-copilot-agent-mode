@@ -1,0 +1,3 @@
+The public directory is typically used for static assets in a Next.js project, such as images, fonts, or other files that need to be served directly. Since you haven't specified any assets to include, this file will be intentionally left blank.
+
+<!-- This file is intentionally left blank. -->
